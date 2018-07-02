@@ -16,6 +16,12 @@
     "deasync": "^0.1.4",
     "json-rpc2": "^1.0.2",
     "node-proxy": "^1.0.0",
-    "underscore": "^1.8.3"
-  }
+    "underscore": "^1.8.3",
+    "snyk": "^1.88.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
