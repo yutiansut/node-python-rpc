@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "deasync": "^0.1.4",
-    "json-rpc2": "^1.0.2",
+    "json-rpc2": "^2.0.0",
     "node-proxy": "^1.0.0",
     "underscore": "^1.8.3"
   }
